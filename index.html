@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Analítico y Consultas — Caso Práctico NovaTech</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <h1>📊 NovaTech Retail México — Dashboard Analítico</h1>
+    <p>Caso Práctico: Inteligencia Comercial, Gráficas Personalizadas y Motor de Consultas SQL</p>
+  </div>
+  <div class="header-actions">
+    <span class="badge" id="badgeRegistrosActivos">144 de 144 registros activos</span>
+    <button type="button" class="btn-secondary" id="btnThemeToggle">🌙 Modo Oscuro</button>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- CONTEXTO DEL CASO PRÁCTICO -->
+  <section class="card">
+    <div class="card-header">
+      <h2>🏢 Caso Práctico: NovaTech Retail México S.A. de C.V.</h2>
+      <span>Periodo de análisis: Enero – Diciembre 2026 (144 transacciones omnicanal)</span>
+    </div>
+    <div class="case-banner">
+      <div class="case-item">
+        <strong>Problemática de Negocio</strong>
+        <span>Evaluar ingresos frente a utilidad neta real, detectar fugas de margen por comisiones de canal y diagnosticar retrasos logísticos.</span>
+      </div>
+      <div class="case-item">
+        <strong>Cobertura Operativa</strong>
+        <span>5 regiones (Centro, Norte, Occidente, Bajío, Sur) y 4 canales (Tienda Online, Venta Corporativa B2B, Sucursal Física, Marketplace).</span>
+      </div>
+      <div class="case-item">
+        <strong>Capacidades del Panel</strong>
+        <span>Filtros dinámicos en vivo, 4 gráficas personalizables exportables a PNG, interpretación automática y consola de consultas SQL.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. PANEL DE CONSULTAS RÁPIDAS (FILTROS DINÁMICOS) -->
+  <section class="card">
+    <div class="card-header">
+      <h2>🔍 Consultas Rápidas y Filtros Dinámicos</h2>
+      <span>Filtra los indicadores, las gráficas personalizadas y la interpretación en tiempo real</span>
+    </div>
+    <div class="filters-grid">
+      <div class="field">
+        <label for="filterRegion">Región</label>
+        <select id="filterRegion"><option value="ALL">Todas las regiones</option></select>
+      </div>
+      <div class="field">
+        <label for="filterCategoria">Categoría de Producto</label>
+        <select id="filterCategoria"><option value="ALL">Todas las categorías</option></select>
+      </div>
+      <div class="field">
+        <label for="filterCanal">Canal Comercial</label>
+        <select id="filterCanal"><option value="ALL">Todos los canales</option></select>
+      </div>
+      <div class="field">
+        <label for="filterTrimestre">Trimestre</label>
+        <select id="filterTrimestre">
+          <option value="ALL">Todo el año (Q1–Q4)</option>
+          <option value="Q1">Q1 (Ene–Mar)</option>
+          <option value="Q2">Q2 (Abr–Jun)</option>
+          <option value="Q3">Q3 (Jul–Sep)</option>
+          <option value="Q4">Q4 (Oct–Dic)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="filterMinMonto">Ingreso Mínimo (MXN)</label>
+        <input type="number" id="filterMinMonto" placeholder="Ej. 20000" min="0" step="1000" />
+      </div>
+      <div class="field">
+        <label for="filterSearch">Buscar Producto / Cliente / ID</label>
+        <input type="text" id="filterSearch" placeholder="Ej. Laptop, Azteca, VTA-10..." />
+      </div>
+      <div class="field">
+        <button type="button" class="btn-secondary" id="btnResetFilters" style="width:100%;">↺ Restablecer</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. TARJETAS KPI -->
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-title">Ingresos Totales</div>
+      <div class="kpi-value" id="kpiIngresos">$0.00</div>
+      <div class="kpi-sub" id="kpiIngresosSub">0 operaciones</div>
+    </div>
+    <div class="kpi-card green">
+      <div class="kpi-title">Utilidad Neta</div>
+      <div class="kpi-value" id="kpiUtilidad">$0.00</div>
+      <div class="kpi-sub" id="kpiUtilidadSub">Margen neto real: 0%</div>
+    </div>
+    <div class="kpi-card blue">
+      <div class="kpi-title">Ticket Promedio</div>
+      <div class="kpi-value" id="kpiTicket">$0.00</div>
+      <div class="kpi-sub" id="kpiTicketSub">Promedio por orden filtrada</div>
+    </div>
+    <div class="kpi-card amber">
+      <div class="kpi-title">Satisfacción (CSAT)</div>
+      <div class="kpi-value" id="kpiCsat">0.00 / 5.0</div>
+      <div class="kpi-sub" id="kpiCsatSub">Puntualidad logística: 0%</div>
+    </div>
+  </section>
+
+  <!-- 3. GRÁFICAS PERSONALIZADAS -->
+  <section class="card">
+    <div class="card-header">
+      <h2>📈 Gráficas Personalizadas</h2>
+      <span>Personaliza paletas cromáticas, geometría de visualización y descarga cada gráfica en PNG</span>
+    </div>
+
+    <div class="customizer-bar">
+      <label>🎨 Paleta de Color:
+        <select id="cfgPaleta">
+          <option value="indigo">Índigo Ejecutivo</option>
+          <option value="emerald">Esmeralda Analítico</option>
+          <option value="sunset">Ámbar & Terracota</option>
+          <option value="slate">Corporativo Pizarra</option>
+        </select>
+      </label>
+      <label>📊 Gráfica Temporal:
+        <select id="cfgTipoTendencia">
+          <option value="combo">Combinada (Barras + Línea)</option>
+          <option value="line">Líneas Suavizadas con Área</option>
+          <option value="bar">Barras Comparativas</option>
+        </select>
+      </label>
+      <label>🧭 Gráfica Regional:
+        <select id="cfgTipoRegional">
+          <option value="radar">Radar Multidimensional</option>
+          <option value="bar">Barras Agrupadas</option>
+        </select>
+      </label>
+      <label>
+        <input type="checkbox" id="cfgCuadricula" checked /> Mostrar cuadrícula
+      </label>
+    </div>
+
+    <div class="charts-grid">
+      <div class="chart-box">
+        <div class="chart-top">
+          <h3>Evolución Mensual: Ingresos vs. Utilidad Neta</h3>
+          <button type="button" class="btn-secondary" data-export-chart="chartTendencia">⬇ PNG</button>
+        </div>
+        <div class="canvas-wrap"><canvas id="chartTendencia"></canvas></div>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-top">
+          <h3>Ingresos y Utilidad Neta por Categoría</h3>
+          <button type="button" class="btn-secondary" data-export-chart="chartCategorias">⬇ PNG</button>
+        </div>
+        <div class="canvas-wrap"><canvas id="chartCategorias"></canvas></div>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-top">
+          <h3>Participación por Canal Comercial</h3>
+          <button type="button" class="btn-secondary" data-export-chart="chartCanales">⬇ PNG</button>
+        </div>
+        <div class="canvas-wrap"><canvas id="chartCanales"></canvas></div>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-top">
+          <h3>Desempeño Multidimensional por Región (%)</h3>
+          <button type="button" class="btn-secondary" data-export-chart="chartRegional">⬇ PNG</button>
+        </div>
+        <div class="canvas-wrap"><canvas id="chartRegional"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. INTERPRETACIÓN DE RESULTADOS -->
+  <section class="card">
+    <div class="card-header">
+      <h2>🧠 Interpretación de Resultados y Hallazgos Clave</h2>
+      <span>Diagnóstico dinámico actualizado automáticamente según los filtros aplicados</span>
+    </div>
+    <div class="insights-grid" id="interpretacionDinamicaContainer"></div>
+  </section>
+
+  <!-- 5. CONSOLA DE CONSULTAS SQL INTERACTIVA -->
+  <section class="card">
+    <div class="card-header">
+      <h2>💻 Consola de Consultas SQL sobre el Dataset (<code>ventas</code>)</h2>
+      <span>Soporta <code>SELECT</code>, <code>SUM/AVG/COUNT/MIN/MAX</code>, <code>WHERE</code>, <code>GROUP BY</code>, <code>ORDER BY</code> y <code>LIMIT</code></span>
+    </div>
+
+    <div class="presets-grid" id="sqlPresetsContainer"></div>
+
+    <textarea id="sqlQueryInput" class="sql-editor" spellcheck="false" placeholder="Escribe tu consulta SQL aquí... (Ctrl + Enter para ejecutar)"></textarea>
+
+    <div class="sql-actions">
+      <button type="button" class="btn-primary" id="btnRunSql">▶ Ejecutar Consulta SQL</button>
+      <button type="button" class="btn-secondary" id="btnExportSqlCsv" disabled>⬇ Exportar Resultado CSV</button>
+      <div id="sqlStatus" class="sql-status success">Listo para consultar.</div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead id="sqlResultHead"></thead>
+        <tbody id="sqlResultBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. EXPLORADOR DE REGISTROS FILTRADOS -->
+  <section class="card">
+    <div class="card-header">
+      <h2>📋 Registros del Caso Práctico (Detalle Operativo)</h2>
+      <button type="button" class="btn-secondary" id="btnExportFilteredCsv">⬇ Descargar Vista CSV</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Fecha</th>
+            <th>Región</th>
+            <th>Categoría</th>
+            <th>Producto</th>
+            <th>Canal</th>
+            <th class="num">Cant.</th>
+            <th class="num">Ingresos</th>
+            <th class="num">Utilidad</th>
+            <th class="num">Margen</th>
+            <th class="center">Entrega</th>
+            <th class="num">CSAT</th>
+          </tr>
+        </thead>
+        <tbody id="tablaDatosBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination">
+      <span id="pageInfo">Página 1 de 1</span>
+      <div style="display:flex; gap:0.5rem;">
+        <button type="button" class="btn-secondary" id="btnPrevPage">← Anterior</button>
+        <button type="button" class="btn-secondary" id="btnNextPage">Siguiente →</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/sql_engine.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

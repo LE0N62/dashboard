@@ -1,0 +1,145 @@
+﻿id,fecha,mes_num,mes,trimestre,region,categoria,producto,canal,cliente,cantidad,precio_unitario,ingresos,costo_total,utilidad,margen_pct,dias_entrega,entrega_a_tiempo,satisfaccion
+VTA-1097,2026-01-01,1,Enero,Q1,Norte,Smartphones,Galaxy Edge Z,Tienda Online,Grupo Industrial Azteca,3,8790.11,26370.33,21053.52,5316.81,20.16,2,Sí,4.8
+VTA-1131,2026-01-03,1,Enero,Q1,Centro,Smartphones,NovaPhone Lite 5G,Venta Corporativa B2B,Servicios Médicos Central,14,15086.01,211204.14,165903.08,45301.06,21.45,2,Sí,4.4
+VTA-1002,2026-01-07,1,Enero,Q1,Centro,Accesorios,Docking Station USB-C,Venta Corporativa B2B,Arquitectura y Diseño Urbano,14,2578.64,36100.96,19768.63,16332.33,45.24,3,Sí,4.7
+VTA-1051,2026-01-10,1,Enero,Q1,Occidente,Hogar Inteligente,Asistente Hub Max,Marketplace,Comercializadora del Valle,2,5411.8,10823.6,8160.62,2662.98,24.6,3,Sí,4.3
+VTA-1065,2026-01-10,1,Enero,Q1,Occidente,Hogar Inteligente,Kit Iluminación WiFi,Sucursal Física,Retail Express México,3,6626.61,19879.83,14292.78,5587.05,28.1,3,Sí,4.5
+VTA-1044,2026-01-14,1,Enero,Q1,Norte,Hogar Inteligente,Asistente Hub Max,Tienda Online,Educación Superior del Sur,4,7319.51,29278.04,19570.21,9707.83,33.16,2,Sí,4.9
+VTA-1078,2026-01-17,1,Enero,Q1,Sur,Audio y Wearables,Audífonos ANC Studio,Marketplace,Comercializadora del Valle,4,4082.35,16329.4,12356.97,3972.43,24.33,5,Sí,4.5
+VTA-1016,2026-01-23,1,Enero,Q1,Occidente,Smartphones,NovaPhone 15 Pro,Marketplace,Comercializadora del Valle,3,14872.25,44616.75,39694.79,4921.96,11.03,4,Sí,4.4
+VTA-1031,2026-01-24,1,Enero,Q1,Sur,Hogar Inteligente,Cámara Seguridad 4K,Tienda Online,Educación Superior del Sur,1,7120.22,7120.22,4956.15,2164.07,30.39,5,Sí,4.4
+VTA-1060,2026-02-02,2,Febrero,Q1,Sur,Accesorios,SSD Externo 2TB,Sucursal Física,Servicios Médicos Central,2,3038.27,6076.54,4108.45,1968.09,32.39,4,Sí,4.7
+VTA-1025,2026-02-07,2,Febrero,Q1,Norte,Smartphones,Galaxy Edge Z,Marketplace,Logística Integral Bajío,2,11274.3,22548.6,20025.71,2522.89,11.19,5,No,3.5
+VTA-1057,2026-02-08,2,Febrero,Q1,Norte,Smartphones,Galaxy Edge Z,Sucursal Física,Cliente Minorista Web,3,15489.53,46468.59,39364.15,7104.44,15.29,5,No,3.2
+VTA-1132,2026-02-08,2,Febrero,Q1,Norte,Accesorios,Cargador GaN 100W,Tienda Online,Innovación Digital SA,4,2124.15,8496.6,5000.26,3496.34,41.15,5,No,3.1
+VTA-1109,2026-02-14,2,Febrero,Q1,Centro,Accesorios,Cargador GaN 100W,Venta Corporativa B2B,Grupo Industrial Azteca,7,1256.43,8795.01,4715.31,4079.7,46.39,1,Sí,4.2
+VTA-1139,2026-02-14,2,Febrero,Q1,Centro,Accesorios,Teclado Mecánico RGB,Venta Corporativa B2B,Comercializadora del Valle,8,870.19,6961.52,3953.59,3007.93,43.21,2,Sí,4.6
+VTA-1014,2026-02-16,2,Febrero,Q1,Sur,Smartphones,Galaxy Edge Z,Venta Corporativa B2B,Educación Superior del Sur,12,21940.5,263286.0,194272.94,69013.06,26.21,5,Sí,4.8
+VTA-1011,2026-02-18,2,Febrero,Q1,Occidente,Audio y Wearables,Audífonos ANC Studio,Tienda Online,Cliente Minorista Web,2,1416.55,2833.1,2004.7,828.4,29.24,3,Sí,5.0
+VTA-1088,2026-02-18,2,Febrero,Q1,Bajío,Audio y Wearables,Barra de Sonido Dolby,Sucursal Física,Cliente Minorista Web,3,6333.66,19000.98,13402.22,5598.76,29.47,2,Sí,4.8
+VTA-1017,2026-02-19,2,Febrero,Q1,Occidente,Smartphones,Pixel Nova 9,Sucursal Física,Comercializadora del Valle,2,8321.81,16643.62,14140.66,2502.96,15.04,4,Sí,4.5
+VTA-1049,2026-02-21,2,Febrero,Q1,Centro,Laptops y Cómputo,Ultrabook Air X1,Tienda Online,Innovación Digital SA,1,14623.84,14623.84,11183.37,3440.47,23.53,1,Sí,4.7
+VTA-1071,2026-02-25,2,Febrero,Q1,Norte,Accesorios,Docking Station USB-C,Sucursal Física,Educación Superior del Sur,4,799.06,3196.24,2308.61,887.63,27.77,5,No,3.5
+VTA-1100,2026-03-05,3,Marzo,Q1,Centro,Accesorios,SSD Externo 2TB,Venta Corporativa B2B,Innovación Digital SA,12,1460.97,17531.64,9703.53,7828.11,44.65,3,Sí,4.3
+VTA-1064,2026-03-07,3,Marzo,Q1,Centro,Laptops y Cómputo,Ultrabook Air X1,Tienda Online,TechSolutions MX,1,11554.85,11554.85,8649.36,2905.49,25.15,4,No,3.3
+VTA-1115,2026-03-07,3,Marzo,Q1,Centro,Smartphones,NovaPhone 15 Pro,Tienda Online,Cliente Minorista Web,4,18644.8,74579.2,57253.69,17325.51,23.23,3,Sí,4.7
+VTA-1123,2026-03-07,3,Marzo,Q1,Norte,Hogar Inteligente,Cámara Seguridad 4K,Tienda Online,TechSolutions MX,2,2270.71,4541.42,3228.29,1313.13,28.91,2,Sí,4.6
+VTA-1133,2026-03-14,3,Marzo,Q1,Centro,Audio y Wearables,Smartwatch FitPro,Venta Corporativa B2B,Arquitectura y Diseño Urbano,5,4807.9,24039.5,14896.62,9142.88,38.03,2,Sí,4.3
+VTA-1019,2026-03-15,3,Marzo,Q1,Centro,Laptops y Cómputo,"Monitor Curvo 34""",Sucursal Física,Grupo Industrial Azteca,1,24868.97,24868.97,19517.23,5351.74,21.52,1,Sí,5.0
+VTA-1125,2026-03-15,3,Marzo,Q1,Centro,Audio y Wearables,Smartwatch FitPro,Marketplace,Retail Express México,3,5217.54,15652.62,11541.05,4111.57,26.27,4,No,3.1
+VTA-1095,2026-03-21,3,Marzo,Q1,Occidente,Laptops y Cómputo,Laptop ProBook 15,Sucursal Física,TechSolutions MX,2,27633.05,55266.1,44342.69,10923.41,19.77,5,No,3.1
+VTA-1010,2026-03-22,3,Marzo,Q1,Norte,Laptops y Cómputo,"Monitor Curvo 34""",Venta Corporativa B2B,Innovación Digital SA,10,16653.99,166539.9,118314.67,48225.23,28.96,2,Sí,4.7
+VTA-1108,2026-03-25,3,Marzo,Q1,Occidente,Laptops y Cómputo,Workstation Studio 16,Venta Corporativa B2B,Distribuidora Pacífico,9,23945.06,215505.54,154569.37,60936.17,28.28,3,Sí,4.8
+VTA-1043,2026-04-03,4,Abril,Q2,Occidente,Smartphones,Galaxy Edge Z,Tienda Online,TechSolutions MX,1,9168.04,9168.04,7445.41,1722.63,18.79,3,Sí,4.8
+VTA-1030,2026-04-04,4,Abril,Q2,Norte,Accesorios,Cargador GaN 100W,Marketplace,Corporativo Reforma,2,3027.67,6055.34,4027.2,2028.14,33.49,3,Sí,4.9
+VTA-1143,2026-04-04,4,Abril,Q2,Centro,Smartphones,Pixel Nova 9,Venta Corporativa B2B,Comercializadora del Valle,11,10909.89,120008.79,93328.72,26680.07,22.23,3,Sí,4.4
+VTA-1027,2026-04-07,4,Abril,Q2,Occidente,Smartphones,Galaxy Edge Z,Venta Corporativa B2B,Grupo Industrial Azteca,7,8249.09,57743.63,44545.54,13198.09,22.86,3,Sí,4.2
+VTA-1039,2026-04-07,4,Abril,Q2,Centro,Laptops y Cómputo,Ultrabook Air X1,Marketplace,Cliente Minorista Web,1,19996.04,19996.04,16421.07,3574.97,17.88,2,Sí,4.8
+VTA-1120,2026-04-14,4,Abril,Q2,Bajío,Accesorios,Docking Station USB-C,Sucursal Física,Comercializadora del Valle,3,1556.65,4669.95,3033.73,1636.22,35.04,3,Sí,4.4
+VTA-1063,2026-04-17,4,Abril,Q2,Norte,Hogar Inteligente,Termostato Smart,Marketplace,Consultores Asociados Norte,4,5268.64,21074.56,16756.4,4318.16,20.49,2,Sí,5.0
+VTA-1111,2026-04-18,4,Abril,Q2,Bajío,Audio y Wearables,Audífonos ANC Studio,Venta Corporativa B2B,Grupo Industrial Azteca,14,3624.72,50746.08,31589.65,19156.43,37.75,1,Sí,4.9
+VTA-1050,2026-04-23,4,Abril,Q2,Centro,Audio y Wearables,Smartwatch FitPro,Venta Corporativa B2B,Retail Express México,14,1984.12,27777.68,16873.02,10904.66,39.26,2,Sí,4.3
+VTA-1077,2026-04-25,4,Abril,Q2,Norte,Audio y Wearables,Earbuds Sport X,Sucursal Física,Educación Superior del Sur,4,6440.91,25763.64,17461.69,8301.95,32.22,3,Sí,4.6
+VTA-1106,2026-04-25,4,Abril,Q2,Centro,Audio y Wearables,Barra de Sonido Dolby,Tienda Online,Innovación Digital SA,2,4752.46,9504.92,6435.16,3069.76,32.3,1,Sí,4.3
+VTA-1041,2026-04-28,4,Abril,Q2,Centro,Smartphones,Pixel Nova 9,Sucursal Física,Retail Express México,3,20795.39,62386.17,51582.04,10804.13,17.32,4,No,3.2
+VTA-1096,2026-04-28,4,Abril,Q2,Centro,Smartphones,NovaPhone 15 Pro,Tienda Online,TechSolutions MX,2,15281.38,30562.76,23493.15,7069.61,23.13,1,Sí,4.7
+VTA-1022,2026-05-02,5,Mayo,Q2,Occidente,Accesorios,Teclado Mecánico RGB,Tienda Online,TechSolutions MX,1,838.43,838.43,712.87,125.56,14.98,3,Sí,4.5
+VTA-1135,2026-05-03,5,Mayo,Q2,Norte,Laptops y Cómputo,Workstation Studio 16,Tienda Online,Distribuidora Pacífico,3,18440.22,55320.66,40269.71,15050.95,27.21,4,Sí,5.0
+VTA-1028,2026-05-05,5,Mayo,Q2,Occidente,Audio y Wearables,Smartwatch FitPro,Sucursal Física,Distribuidora Pacífico,4,1449.32,5797.28,4402.7,1394.58,24.06,3,Sí,4.6
+VTA-1005,2026-05-07,5,Mayo,Q2,Occidente,Laptops y Cómputo,Ultrabook Air X1,Sucursal Física,Corporativo Reforma,1,29262.92,29262.92,23265.55,5997.37,20.49,4,Sí,4.7
+VTA-1110,2026-05-07,5,Mayo,Q2,Bajío,Audio y Wearables,Barra de Sonido Dolby,Tienda Online,Cliente Minorista Web,1,5209.77,5209.77,3583.53,1626.24,31.22,3,Sí,4.6
+VTA-1036,2026-05-10,5,Mayo,Q2,Occidente,Audio y Wearables,Earbuds Sport X,Sucursal Física,Corporativo Reforma,2,3544.28,7088.56,4890.53,2198.03,31.01,3,Sí,4.7
+VTA-1102,2026-05-11,5,Mayo,Q2,Occidente,Audio y Wearables,Smartwatch FitPro,Sucursal Física,Comercializadora del Valle,4,1865.25,7461.0,5571.9,1889.1,25.32,4,Sí,4.3
+VTA-1004,2026-05-12,5,Mayo,Q2,Occidente,Laptops y Cómputo,"Monitor Curvo 34""",Venta Corporativa B2B,Comercializadora del Valle,9,22816.83,205351.47,142191.72,63159.75,30.76,5,No,3.6
+VTA-1006,2026-05-12,5,Mayo,Q2,Norte,Audio y Wearables,Audífonos ANC Studio,Venta Corporativa B2B,Innovación Digital SA,5,5118.55,25592.75,16557.64,9035.11,35.3,4,Sí,4.4
+VTA-1037,2026-05-18,5,Mayo,Q2,Bajío,Audio y Wearables,Barra de Sonido Dolby,Tienda Online,Cliente Minorista Web,3,3653.11,10959.33,7036.89,3922.44,35.79,4,No,3.3
+VTA-1080,2026-05-23,5,Mayo,Q2,Bajío,Hogar Inteligente,Kit Iluminación WiFi,Venta Corporativa B2B,Arquitectura y Diseño Urbano,6,5974.84,35849.04,23720.72,12128.32,33.83,2,Sí,4.8
+VTA-1048,2026-05-25,5,Mayo,Q2,Bajío,Audio y Wearables,Earbuds Sport X,Tienda Online,Cliente Minorista Web,1,1498.85,1498.85,1140.73,358.12,23.89,2,Sí,4.4
+VTA-1081,2026-06-04,6,Junio,Q2,Bajío,Laptops y Cómputo,"Monitor Curvo 34""",Tienda Online,Grupo Industrial Azteca,3,12442.81,37328.43,26834.48,10493.95,28.11,2,Sí,4.5
+VTA-1082,2026-06-08,6,Junio,Q2,Norte,Accesorios,Teclado Mecánico RGB,Tienda Online,Innovación Digital SA,1,3044.81,3044.81,1942.78,1102.03,36.19,3,Sí,4.6
+VTA-1069,2026-06-09,6,Junio,Q2,Centro,Accesorios,Cargador GaN 100W,Sucursal Física,Comercializadora del Valle,4,1942.53,7770.12,4949.6,2820.52,36.3,2,Sí,4.7
+VTA-1084,2026-06-12,6,Junio,Q2,Sur,Audio y Wearables,Earbuds Sport X,Sucursal Física,Consultores Asociados Norte,4,2416.01,9664.04,7196.01,2468.03,25.54,6,Sí,4.3
+VTA-1085,2026-06-12,6,Junio,Q2,Occidente,Audio y Wearables,Audífonos ANC Studio,Marketplace,Consultores Asociados Norte,4,1441.3,5765.2,4337.46,1427.74,24.76,2,Sí,4.9
+VTA-1040,2026-06-13,6,Junio,Q2,Centro,Laptops y Cómputo,Laptop ProBook 15,Sucursal Física,TechSolutions MX,2,27984.25,55968.5,43199.14,12769.36,22.82,3,Sí,4.2
+VTA-1067,2026-06-15,6,Junio,Q2,Occidente,Hogar Inteligente,Termostato Smart,Venta Corporativa B2B,Distribuidora Pacífico,10,2290.7,22907.0,15771.3,7135.7,31.15,4,Sí,4.8
+VTA-1053,2026-06-16,6,Junio,Q2,Centro,Audio y Wearables,Earbuds Sport X,Sucursal Física,TechSolutions MX,4,5142.36,20569.44,13657.55,6911.89,33.6,2,Sí,4.7
+VTA-1035,2026-06-17,6,Junio,Q2,Sur,Accesorios,Teclado Mecánico RGB,Venta Corporativa B2B,Arquitectura y Diseño Urbano,4,3182.12,12728.48,7209.64,5518.84,43.36,4,Sí,4.8
+VTA-1015,2026-06-22,6,Junio,Q2,Occidente,Hogar Inteligente,Asistente Hub Max,Tienda Online,Comercializadora del Valle,2,3862.32,7724.64,5314.93,2409.71,31.2,3,Sí,4.7
+VTA-1090,2026-06-24,6,Junio,Q2,Occidente,Accesorios,Cargador GaN 100W,Sucursal Física,Comercializadora del Valle,3,2505.8,7517.4,4808.51,2708.89,36.03,5,No,3.6
+VTA-1089,2026-07-03,7,Julio,Q3,Centro,Smartphones,Pixel Nova 9,Marketplace,Comercializadora del Valle,3,19213.71,57641.13,52052.08,5589.05,9.7,4,No,3.0
+VTA-1013,2026-07-04,7,Julio,Q3,Sur,Audio y Wearables,Smartwatch FitPro,Tienda Online,Comercializadora del Valle,1,5132.73,5132.73,3546.3,1586.43,30.91,7,No,3.5
+VTA-1092,2026-07-04,7,Julio,Q3,Centro,Accesorios,Teclado Mecánico RGB,Venta Corporativa B2B,Arquitectura y Diseño Urbano,8,3260.8,26086.4,13849.46,12236.94,46.91,4,No,3.2
+VTA-1128,2026-07-04,7,Julio,Q3,Centro,Smartphones,Galaxy Edge Z,Venta Corporativa B2B,TechSolutions MX,11,19847.43,218321.73,171668.78,46652.95,21.37,2,Sí,4.9
+VTA-1136,2026-07-06,7,Julio,Q3,Bajío,Laptops y Cómputo,"Monitor Curvo 34""",Tienda Online,Grupo Industrial Azteca,2,27717.74,55435.48,39408.71,16026.77,28.91,2,Sí,4.9
+VTA-1056,2026-07-07,7,Julio,Q3,Centro,Hogar Inteligente,Asistente Hub Max,Venta Corporativa B2B,Retail Express México,6,4704.17,28225.02,17993.26,10231.76,36.25,3,Sí,4.8
+VTA-1046,2026-07-09,7,Julio,Q3,Norte,Laptops y Cómputo,"Monitor Curvo 34""",Tienda Online,Arquitectura y Diseño Urbano,4,14883.42,59533.68,43970.47,15563.21,26.14,3,Sí,5.0
+VTA-1061,2026-07-15,7,Julio,Q3,Norte,Laptops y Cómputo,Workstation Studio 16,Marketplace,Comercializadora del Valle,4,28353.37,113413.48,94069.12,19344.36,17.06,2,Sí,4.7
+VTA-1118,2026-07-15,7,Julio,Q3,Occidente,Laptops y Cómputo,"Monitor Curvo 34""",Marketplace,Logística Integral Bajío,2,23902.62,47805.24,39453.97,8351.27,17.47,2,Sí,4.6
+VTA-1033,2026-07-22,7,Julio,Q3,Sur,Accesorios,SSD Externo 2TB,Marketplace,Consultores Asociados Norte,1,1141.06,1141.06,1108.61,32.45,2.84,5,Sí,4.2
+VTA-1098,2026-07-25,7,Julio,Q3,Norte,Accesorios,Docking Station USB-C,Venta Corporativa B2B,Servicios Médicos Central,6,769.25,4615.5,2831.78,1783.72,38.65,5,No,3.1
+VTA-1137,2026-07-27,7,Julio,Q3,Norte,Audio y Wearables,Audífonos ANC Studio,Sucursal Física,Consultores Asociados Norte,2,3220.57,6441.14,4596.24,1844.9,28.64,3,Sí,4.4
+VTA-1068,2026-08-01,8,Agosto,Q3,Centro,Accesorios,Docking Station USB-C,Marketplace,Innovación Digital SA,3,760.64,2281.92,1648.54,633.38,27.76,3,Sí,4.6
+VTA-1105,2026-08-04,8,Agosto,Q3,Bajío,Accesorios,Teclado Mecánico RGB,Sucursal Física,Innovación Digital SA,1,3204.98,3204.98,2059.63,1145.35,35.74,2,Sí,4.2
+VTA-1083,2026-08-08,8,Agosto,Q3,Norte,Audio y Wearables,Earbuds Sport X,Tienda Online,Retail Express México,1,3772.79,3772.79,2714.93,1057.86,28.04,5,No,3.0
+VTA-1034,2026-08-12,8,Agosto,Q3,Occidente,Audio y Wearables,Earbuds Sport X,Venta Corporativa B2B,Comercializadora del Valle,11,3364.5,37009.5,22911.73,14097.77,38.09,3,Sí,4.2
+VTA-1117,2026-08-12,8,Agosto,Q3,Norte,Audio y Wearables,Earbuds Sport X,Venta Corporativa B2B,Logística Integral Bajío,3,5641.65,16924.95,11113.65,5811.3,34.34,2,Sí,4.7
+VTA-1047,2026-08-13,8,Agosto,Q3,Occidente,Laptops y Cómputo,Laptop ProBook 15,Sucursal Física,Cliente Minorista Web,2,15225.45,30450.9,24447.51,6003.39,19.71,3,Sí,4.4
+VTA-1107,2026-08-13,8,Agosto,Q3,Norte,Audio y Wearables,Smartwatch FitPro,Venta Corporativa B2B,Logística Integral Bajío,14,5361.86,75066.04,46228.25,28837.79,38.42,2,Sí,4.9
+VTA-1134,2026-08-17,8,Agosto,Q3,Bajío,Accesorios,Docking Station USB-C,Venta Corporativa B2B,Grupo Industrial Azteca,10,2398.09,23980.9,12433.73,11547.17,48.15,2,Sí,4.8
+VTA-1112,2026-08-19,8,Agosto,Q3,Norte,Hogar Inteligente,Termostato Smart,Tienda Online,Logística Integral Bajío,1,2848.43,2848.43,2093.46,754.97,26.5,4,Sí,4.9
+VTA-1091,2026-08-20,8,Agosto,Q3,Centro,Laptops y Cómputo,"Monitor Curvo 34""",Marketplace,Servicios Médicos Central,3,19870.07,59610.21,50391.95,9218.26,15.46,1,Sí,4.4
+VTA-1066,2026-08-21,8,Agosto,Q3,Centro,Audio y Wearables,Smartwatch FitPro,Tienda Online,Retail Express México,2,2968.82,5937.64,3853.62,2084.02,35.1,4,No,3.6
+VTA-1008,2026-08-23,8,Agosto,Q3,Centro,Hogar Inteligente,Asistente Hub Max,Marketplace,TechSolutions MX,4,3415.77,13663.08,10699.82,2963.26,21.69,4,No,3.3
+VTA-1124,2026-08-24,8,Agosto,Q3,Bajío,Laptops y Cómputo,Workstation Studio 16,Marketplace,Innovación Digital SA,2,19222.76,38445.52,32528.43,5917.09,15.39,4,No,3.5
+VTA-1001,2026-09-01,9,Septiembre,Q3,Occidente,Smartphones,NovaPhone Lite 5G,Tienda Online,Servicios Médicos Central,1,18428.48,18428.48,14554.05,3874.43,21.02,5,No,3.2
+VTA-1099,2026-09-01,9,Septiembre,Q3,Centro,Hogar Inteligente,Asistente Hub Max,Venta Corporativa B2B,Distribuidora Pacífico,4,6145.65,24582.6,16060.91,8521.69,34.67,1,Sí,4.5
+VTA-1062,2026-09-05,9,Septiembre,Q3,Centro,Accesorios,SSD Externo 2TB,Tienda Online,Comercializadora del Valle,2,2184.7,4369.4,2626.75,1742.65,39.88,4,No,3.5
+VTA-1079,2026-09-05,9,Septiembre,Q3,Centro,Audio y Wearables,Barra de Sonido Dolby,Sucursal Física,Servicios Médicos Central,4,1809.61,7238.44,5241.39,1997.05,27.59,4,No,3.2
+VTA-1055,2026-09-11,9,Septiembre,Q3,Centro,Audio y Wearables,Smartwatch FitPro,Venta Corporativa B2B,Consultores Asociados Norte,8,3135.73,25085.84,15061.12,10024.72,39.96,2,Sí,4.6
+VTA-1141,2026-09-12,9,Septiembre,Q3,Norte,Smartphones,NovaPhone 15 Pro,Tienda Online,Grupo Industrial Azteca,4,8781.81,35127.24,28350.07,6777.17,19.29,3,Sí,4.5
+VTA-1144,2026-09-23,9,Septiembre,Q3,Sur,Hogar Inteligente,Cámara Seguridad 4K,Tienda Online,Cliente Minorista Web,1,2853.2,2853.2,2256.58,596.62,20.91,4,Sí,4.8
+VTA-1072,2026-09-25,9,Septiembre,Q3,Centro,Audio y Wearables,Smartwatch FitPro,Marketplace,Arquitectura y Diseño Urbano,4,3872.03,15488.12,11834.06,3654.06,23.59,4,No,3.5
+VTA-1026,2026-09-26,9,Septiembre,Q3,Occidente,Laptops y Cómputo,Workstation Studio 16,Marketplace,TechSolutions MX,1,16921.55,16921.55,13710.0,3211.55,18.98,5,No,3.0
+VTA-1130,2026-09-26,9,Septiembre,Q3,Centro,Laptops y Cómputo,Workstation Studio 16,Marketplace,Arquitectura y Diseño Urbano,4,28537.76,114151.04,92075.83,22075.21,19.34,3,Sí,4.6
+VTA-1076,2026-09-28,9,Septiembre,Q3,Centro,Accesorios,Cargador GaN 100W,Tienda Online,Cliente Minorista Web,4,3215.34,12861.36,7033.33,5828.03,45.31,2,Sí,4.7
+VTA-1122,2026-10-03,10,Octubre,Q4,Centro,Hogar Inteligente,Termostato Smart,Sucursal Física,Servicios Médicos Central,1,5889.78,5889.78,4358.74,1531.04,25.99,1,Sí,4.5
+VTA-1093,2026-10-05,10,Octubre,Q4,Bajío,Laptops y Cómputo,"Monitor Curvo 34""",Venta Corporativa B2B,Grupo Industrial Azteca,7,25650.75,179555.25,130874.17,48681.08,27.11,3,Sí,5.0
+VTA-1140,2026-10-06,10,Octubre,Q4,Occidente,Audio y Wearables,Earbuds Sport X,Tienda Online,Innovación Digital SA,3,6490.57,19471.71,12815.76,6655.95,34.18,2,Sí,4.3
+VTA-1024,2026-10-08,10,Octubre,Q4,Centro,Smartphones,Galaxy Edge Z,Venta Corporativa B2B,Comercializadora del Valle,15,6946.25,104193.75,78912.21,25281.54,24.26,4,No,3.7
+VTA-1058,2026-10-09,10,Octubre,Q4,Centro,Smartphones,NovaPhone 15 Pro,Sucursal Física,Comercializadora del Valle,3,18463.23,55389.69,44698.2,10691.49,19.3,2,Sí,4.4
+VTA-1059,2026-10-09,10,Octubre,Q4,Occidente,Accesorios,SSD Externo 2TB,Marketplace,Consultores Asociados Norte,2,1275.58,2551.16,1939.41,611.75,23.98,2,Sí,4.8
+VTA-1073,2026-10-10,10,Octubre,Q4,Norte,Accesorios,Cargador GaN 100W,Tienda Online,Cliente Minorista Web,1,3254.42,3254.42,2051.09,1203.33,36.98,3,Sí,4.6
+VTA-1104,2026-10-10,10,Octubre,Q4,Occidente,Audio y Wearables,Audífonos ANC Studio,Venta Corporativa B2B,TechSolutions MX,6,4749.36,28496.16,18222.14,10274.02,36.05,2,Sí,4.5
+VTA-1045,2026-10-13,10,Octubre,Q4,Norte,Audio y Wearables,Barra de Sonido Dolby,Sucursal Física,Distribuidora Pacífico,4,5212.33,20849.32,14514.23,6335.09,30.39,5,No,3.6
+VTA-1009,2026-10-14,10,Octubre,Q4,Bajío,Hogar Inteligente,Termostato Smart,Tienda Online,Distribuidora Pacífico,2,4810.45,9620.9,6426.14,3194.76,33.21,1,Sí,4.3
+VTA-1012,2026-10-17,10,Octubre,Q4,Sur,Audio y Wearables,Smartwatch FitPro,Tienda Online,Distribuidora Pacífico,2,6262.85,12525.7,8032.91,4492.79,35.87,4,Sí,4.7
+VTA-1074,2026-10-17,10,Octubre,Q4,Occidente,Hogar Inteligente,Asistente Hub Max,Marketplace,Cliente Minorista Web,2,5162.72,10325.44,8073.8,2251.64,21.81,5,No,3.3
+VTA-1121,2026-10-22,10,Octubre,Q4,Sur,Accesorios,Teclado Mecánico RGB,Tienda Online,Logística Integral Bajío,2,1503.14,3006.28,2084.51,921.77,30.66,6,Sí,4.3
+VTA-1103,2026-10-26,10,Octubre,Q4,Centro,Laptops y Cómputo,Workstation Studio 16,Sucursal Física,Logística Integral Bajío,4,29408.95,117635.8,88887.16,28748.64,24.44,3,Sí,4.9
+VTA-1086,2026-10-27,10,Octubre,Q4,Sur,Audio y Wearables,Smartwatch FitPro,Venta Corporativa B2B,Corporativo Reforma,8,4646.75,37174.0,23160.9,14013.1,37.7,5,Sí,4.7
+VTA-1052,2026-10-28,10,Octubre,Q4,Occidente,Laptops y Cómputo,Laptop ProBook 15,Tienda Online,Servicios Médicos Central,4,19096.7,76386.8,56047.84,20338.96,26.63,3,Sí,4.2
+VTA-1101,2026-10-28,10,Octubre,Q4,Occidente,Accesorios,Teclado Mecánico RGB,Venta Corporativa B2B,Educación Superior del Sur,6,1582.06,9492.36,5425.44,4066.92,42.84,4,Sí,4.8
+VTA-1003,2026-11-01,11,Noviembre,Q4,Occidente,Smartphones,Pixel Nova 9,Tienda Online,Corporativo Reforma,2,21828.25,43656.5,34737.69,8918.81,20.43,2,Sí,4.5
+VTA-1129,2026-11-01,11,Noviembre,Q4,Norte,Hogar Inteligente,Termostato Smart,Tienda Online,Logística Integral Bajío,1,3169.69,3169.69,2416.48,753.21,23.76,2,Sí,4.9
+VTA-1018,2026-11-02,11,Noviembre,Q4,Occidente,Laptops y Cómputo,Laptop ProBook 15,Venta Corporativa B2B,Comercializadora del Valle,8,16597.45,132779.6,97164.75,35614.85,26.82,4,Sí,4.3
+VTA-1114,2026-11-03,11,Noviembre,Q4,Norte,Laptops y Cómputo,Ultrabook Air X1,Marketplace,Logística Integral Bajío,3,26411.27,79233.81,63815.03,15418.78,19.46,3,Sí,4.4
+VTA-1094,2026-11-04,11,Noviembre,Q4,Sur,Audio y Wearables,Barra de Sonido Dolby,Tienda Online,Corporativo Reforma,3,6337.86,19013.58,11974.72,7038.86,37.02,6,Sí,4.3
+VTA-1070,2026-11-11,11,Noviembre,Q4,Norte,Hogar Inteligente,Termostato Smart,Sucursal Física,Retail Express México,4,5155.59,20622.36,15092.17,5530.19,26.82,3,Sí,4.4
+VTA-1138,2026-11-14,11,Noviembre,Q4,Bajío,Hogar Inteligente,Asistente Hub Max,Tienda Online,Cliente Minorista Web,2,6021.62,12043.24,8268.39,3774.85,31.34,4,No,3.1
+VTA-1021,2026-11-15,11,Noviembre,Q4,Centro,Accesorios,Cargador GaN 100W,Tienda Online,Corporativo Reforma,3,3313.95,9941.85,5643.99,4297.86,43.23,4,No,2.9
+VTA-1029,2026-11-19,11,Noviembre,Q4,Norte,Hogar Inteligente,Cámara Seguridad 4K,Tienda Online,Retail Express México,3,7730.4,23191.2,16306.02,6885.18,29.69,3,Sí,4.4
+VTA-1116,2026-11-21,11,Noviembre,Q4,Occidente,Accesorios,SSD Externo 2TB,Marketplace,TechSolutions MX,3,1859.35,5578.05,3865.55,1712.5,30.7,3,Sí,4.8
+VTA-1119,2026-11-27,11,Noviembre,Q4,Norte,Laptops y Cómputo,Ultrabook Air X1,Tienda Online,Cliente Minorista Web,4,22243.41,88973.64,64758.97,24214.67,27.22,3,Sí,4.5
+VTA-1075,2026-11-28,11,Noviembre,Q4,Centro,Hogar Inteligente,Termostato Smart,Marketplace,Grupo Industrial Azteca,3,3525.32,10575.96,8283.0,2292.96,21.68,4,No,3.4
+VTA-1142,2026-12-02,12,Diciembre,Q4,Occidente,Hogar Inteligente,Termostato Smart,Venta Corporativa B2B,Comercializadora del Valle,15,5300.92,79513.8,51364.68,28149.12,35.4,4,Sí,4.5
+VTA-1113,2026-12-03,12,Diciembre,Q4,Norte,Laptops y Cómputo,Ultrabook Air X1,Venta Corporativa B2B,Innovación Digital SA,9,13112.27,118010.43,81732.26,36278.17,30.74,3,Sí,4.4
+VTA-1032,2026-12-12,12,Diciembre,Q4,Centro,Smartphones,NovaPhone Lite 5G,Tienda Online,Educación Superior del Sur,2,11953.71,23907.42,18326.74,5580.68,23.34,2,Sí,4.5
+VTA-1042,2026-12-15,12,Diciembre,Q4,Bajío,Hogar Inteligente,Asistente Hub Max,Tienda Online,Servicios Médicos Central,2,3491.6,6983.2,4716.57,2266.63,32.46,3,Sí,4.7
+VTA-1023,2026-12-19,12,Diciembre,Q4,Centro,Accesorios,Docking Station USB-C,Venta Corporativa B2B,Arquitectura y Diseño Urbano,9,2255.1,20295.9,11081.88,9214.02,45.4,2,Sí,4.4
+VTA-1087,2026-12-21,12,Diciembre,Q4,Centro,Hogar Inteligente,Kit Iluminación WiFi,Venta Corporativa B2B,TechSolutions MX,14,2349.81,32897.34,21919.52,10977.82,33.37,3,Sí,4.3
+VTA-1007,2026-12-23,12,Diciembre,Q4,Norte,Audio y Wearables,Audífonos ANC Studio,Tienda Online,Retail Express México,1,3008.81,3008.81,2227.48,781.33,25.97,3,Sí,4.9
+VTA-1054,2026-12-25,12,Diciembre,Q4,Norte,Hogar Inteligente,Termostato Smart,Tienda Online,Comercializadora del Valle,2,3501.46,7002.92,4967.4,2035.52,29.07,4,Sí,4.7
+VTA-1038,2026-12-26,12,Diciembre,Q4,Occidente,Laptops y Cómputo,Workstation Studio 16,Venta Corporativa B2B,Servicios Médicos Central,13,18371.36,238827.68,165565.95,73261.73,30.68,3,Sí,4.7
+VTA-1126,2026-12-26,12,Diciembre,Q4,Norte,Smartphones,Galaxy Edge Z,Sucursal Física,Cliente Minorista Web,4,18880.19,75520.76,61816.38,13704.38,18.15,5,No,3.3
+VTA-1127,2026-12-27,12,Diciembre,Q4,Centro,Accesorios,Teclado Mecánico RGB,Marketplace,Servicios Médicos Central,1,1971.62,1971.62,1457.07,514.55,26.1,1,Sí,4.8
+VTA-1020,2026-12-28,12,Diciembre,Q4,Centro,Hogar Inteligente,Asistente Hub Max,Venta Corporativa B2B,Grupo Industrial Azteca,9,2804.29,25238.61,17259.4,7979.21,31.62,3,Sí,4.4
